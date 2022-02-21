@@ -9,7 +9,7 @@ const HeroFiber = () => {
         <Flex p={["4","5","6","7","8"]} py="80px !important" maxW="1272px" textAlign="left" flexDirection={['column', 'column', 'column', 'row',"row"]} >
 
         <Flex w={["100%","100%","100%","50%","50%"]} flexDirection={["column"]}>
-            <Heading pb="20px" fontSize="45px" color="#fff" as="h1">
+            <Heading pb="20px" fontSize="45px" fontWeight="bold" color="#fff" as="h1">
             Frontier® Fiber Gig Service
             </Heading>
             <Flex flexDirection="row" fontWeight="bold">

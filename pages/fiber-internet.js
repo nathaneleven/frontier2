@@ -1,9 +1,9 @@
 import Header from '../src/components/molecules/Header'
-import Footer from '../src/components/molecules/Footer'
+import FooterFiber from '../src/components/molecules/FooterFiber'
 import HeroFiber from '../src/components/organisms/Hero-fiber'
 import Cta from '../src/components/organisms/Cta'
-import CompleteOrder from '../src/components/organisms/CompleteOrder'
-import Services from '../src/components/organisms/Services'
+import FiberPlans from '../src/components/organisms/FiberPlans'
+import AboutFiber from '../src/components/organisms/AboutFiber'
 
 export default function Fiber() {
   return (
@@ -11,8 +11,9 @@ export default function Fiber() {
       <Header />
       <HeroFiber />
       <Cta />
-
-      <Footer/>
+      <FiberPlans/>
+      <AboutFiber/>
+      <FooterFiber/>
     </div>
   )
 }

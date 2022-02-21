@@ -2,14 +2,14 @@ import React from 'react'
 import { Flex, Box, Heading, Text } from '@chakra-ui/layout'
 import { Button } from '@chakra-ui/react'
 
-const Hero = () => {
+const HeroHome = () => {
     return (
         <>
         <Box w="100%" align="center"  backgroundColor="#ff0037">
         <Flex p={["4","5","6","7","8"]} py="80px !important" maxW="1272px" textAlign="left" flexDirection={['column', 'column', 'column', 'row',"row"]} >
 
         <Flex w={["100%","100%","100%","50%","50%"]} flexDirection={["column"]}>
-            <Heading pb="20px" fontSize="45px" color="#fff" as="h1">
+            <Heading pb="20px" fontWeight="bold" fontSize="45px" color="#fff" as="h1">
             Switch to Frontier® and<br/> get internet your way. 
             </Heading>
             <Text pb="20px" color="#fff" fontSize="20px" as="h3">
@@ -36,4 +36,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default HeroHome
